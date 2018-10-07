@@ -3,17 +3,17 @@ body{
   font-family: 'Hiragino Kaku Gothic ProN';
 }
 
-span.text{
-  font-size: 11px;
-}
-
 div.header{
-  font-size: 16px;
+  font-size: 19px;
   height: 9vh;
   line-height: 9vh;
   text-align: center;
   color: black;
   background-color: #c62828;
+}
+
+span.text{
+  font-size: 11px;
 }
 
 div.indexvar{
