@@ -1,0 +1,151 @@
+body{
+  background-color: #f5f5f5;
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+
+span.text{
+  font-size: 11px;
+}
+
+div.header{
+  font-size: 16px;
+  height: 9vh;
+  line-height: 9vh;
+  text-align: center;
+  color: black;
+  background-color: #c62828;
+}
+
+div.indexvar{
+  height: 6vh;
+  line-height: 5.5vh;
+  width: 100vw;
+  text-align: center;
+  color: black;
+  border-bottom: solid  0.1vh;
+  border-color: #e0e0e0;
+}
+
+div.time{
+  float: left;
+  margin-left: 5.5vh;
+}
+
+div.hit{
+  float: right;
+  margin-right: 5.5vh;
+}
+
+div.row{
+  height: 76vh;
+  padding: 6vh;
+  margin: 0;
+}
+
+div.gawa{
+  height: 64vh;
+  margin: 0vh;
+}
+
+div.contents{
+  height: 64vh;
+  padding: 0vh !important;
+}
+
+div.titlevar{
+  margin-top: 0;
+  padding-top: 0;
+  color: white;
+  height: 9vh;
+  padding-left: 6px;
+}
+
+
+div.shop{
+  padding-top: 1.5vh;
+  height: 7.5vh;
+  line-height: 1;
+}
+
+.name{
+  font-size: 12px;
+}
+
+.jusho{
+  font-size: 5px;
+  color: #757575;
+  margin-left: 1px;
+}
+
+
+/*span.rate{
+  font-size: 10px;
+  height: 3vh;
+  text-align: right;
+  padding-right: 1vh;
+}*/
+
+div.gazou{
+  height: 55vh;
+  margin: 0;
+}
+
+img.ramenga{
+  height: 55vh;
+  object-fit: cover;
+}
+
+
+div.dansoku{
+  height: 9vh;
+}
+
+div.danbtn{
+  height: 9vh;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  width: 50vw;
+  float: left;
+  vertical-align: middle;
+  padding-top: 0.7vh;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  background-color: #2BBDD2;
+}
+
+.danmoji{
+  font-size: 20px;
+  color: white;
+}
+
+.danshita{
+  font-size: 5px;
+  color: white;
+}
+
+div.sokubtn{
+  height: 9vh;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  width: 50vw;
+  float: left;
+  vertical-align: middle;
+  padding-top: 0.7vh;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  background-color: #FC6D67;
+}
+
+.sokumoji{
+  font-size: 20px;
+  color: white;
+}
+
+.sokushita{
+  font-size: 5px;
+  color: white;
+}
