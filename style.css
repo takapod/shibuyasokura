@@ -92,7 +92,7 @@ span.jusho{
   font-size: calc(50% + 1.5vh);
   color: #757575;
   padding-left: 0.5vw;
-  padding-bottom: 0.3vh;
+  padding-bottom: 0.1vh;
   display: table-cell;
   vertical-align: middle;
 }
