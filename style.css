@@ -33,7 +33,7 @@ div.time{
 
 div.hit{
   float: right;
-  margin-right: 5.7vh;
+  margin-right: 5.9vh;
 }
 
 div.row{
@@ -80,7 +80,7 @@ span.jusho{
   height: calc(50% + 1.5vh);
   font-size: calc(50% + 1.5vh);
   color: #757575;
-  padding-left: 0.6vw;
+  padding-left: 0.5vw;
   display: table-cell;
   vertical-align: middle;
 }
