@@ -4,16 +4,16 @@ body{
 }
 
 div.header{
-  font-size: 18px;
+  font-size: calc(112.5% + 3vh);
   height: 9vh;
   line-height: 9vh;
   text-align: center;
-  color: black;
+  color: #212121;
   background-color: #c62828;
 }
 
 span.text{
-  font-size: 11px;
+  font-size: calc(50% + 3vw);
 }
 
 div.indexvar{
@@ -21,19 +21,19 @@ div.indexvar{
   line-height: 5.5vh;
   width: 100vw;
   text-align: center;
-  color: black;
+  color: #424242;
   border-bottom: solid  0.1vh;
   border-color: #e0e0e0;
 }
 
 div.time{
   float: left;
-  margin-left: 5.5vh;
+  margin-left: 5.7vh;
 }
 
 div.hit{
   float: right;
-  margin-right: 5.5vh;
+  margin-right: 5.7vh;
 }
 
 div.row{
@@ -53,28 +53,36 @@ div.contents{
 }
 
 div.titlevar{
+  height: 9vh;
   margin-top: 0;
   padding-top: 0;
   color: white;
-  height: 9vh;
-  padding-left: 6px;
 }
 
 
 div.shop{
-  padding-top: 1.5vh;
-  height: 7.5vh;
-  line-height: 1;
+  height: 9vh;
+  padding-left: 2.5vw;
+  line-height: 1.15;
+  padding-top: 0.01vh;
+  padding-bottom: 0.01vh;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.name{
-  font-size: 12px;
+span.name{
+  height: calc(50% + 2vh);
+  font-size: calc(50% + 2vh);
+  color: #424242;
 }
 
-.jusho{
-  font-size: 5px;
+span.jusho{
+  height: calc(50% + 1.5vh);
+  font-size: calc(50% + 1.5vh);
   color: #757575;
-  margin-left: 1px;
+  padding-left: 0.6vw;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 
@@ -102,13 +110,11 @@ div.dansoku{
 
 div.danbtn{
   height: 9vh;
-  line-height: 1;
+  line-height: 9vh;
   margin: 0;
   padding: 0;
   width: 50vw;
   float: left;
-  vertical-align: middle;
-  padding-top: 0.7vh;
   border-radius: 0;
   border: none;
   box-shadow: none;
@@ -116,24 +122,22 @@ div.danbtn{
 }
 
 .danmoji{
-  font-size: 20px;
+  font-size: calc(50% + 4vh);
   color: white;
 }
 
-.danshita{
+/*.danshita{
   font-size: 5px;
   color: white;
-}
+}*/
 
 div.sokubtn{
   height: 9vh;
-  line-height: 1;
+  line-height: 9vh;
   margin: 0;
   padding: 0;
   width: 50vw;
   float: left;
-  vertical-align: middle;
-  padding-top: 0.7vh;
   border-radius: 0;
   border: none;
   box-shadow: none;
@@ -141,11 +145,12 @@ div.sokubtn{
 }
 
 .sokumoji{
-  font-size: 20px;
+  font-size: 21px;
   color: white;
+  font-size: calc(50% + 4vh);
 }
 
-.sokushita{
+/*.sokushita{
   font-size: 5px;
   color: white;
-}
+}*/
