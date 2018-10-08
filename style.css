@@ -145,9 +145,8 @@ div.sokubtn{
 }
 
 .sokumoji{
-  font-size: 21px;
-  color: white;
   font-size: calc(50% + 4vh);
+  color: white;
 }
 
 /*.sokushita{
