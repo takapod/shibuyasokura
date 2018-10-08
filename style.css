@@ -45,6 +45,19 @@ div.row{
 div.gawa{
   height: 64vh;
   margin: 0vh;
+  border-radius: 15px !important;
+}
+
+div.white.black-text{
+  border-radius: 15px 15px 0 0 !important;
+}
+
+div.cardimage{
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.card-image img{
+  border-radius: 15px 15px 0 0 !important;
 }
 
 div.contents{
