@@ -1,7 +1,7 @@
 body{
   background-color: #f5f5f5;
   font-family: 'Hiragino Kaku Gothic ProN';
-  height: 100%;
+  overflow: hidden;
 }
 
 div.header{
@@ -73,7 +73,6 @@ div.titlevar{
   color: white;
 }
 
-
 div.shop{
   height: 9vh;
   padding-left: 2.5vw;
@@ -98,14 +97,6 @@ span.jusho{
   display: table-cell;
   vertical-align: middle;
 }
-
-
-/*span.rate{
-  font-size: 10px;
-  height: 3vh;
-  text-align: right;
-  padding-right: 1vh;
-}*/
 
 div.gazou{
   height: 55vh;
@@ -140,10 +131,6 @@ div.danbtn{
   color: white;
 }
 
-/*.danshita{
-  font-size: 5px;
-  color: white;
-}*/
 
 div.sokubtn{
   height: 9vh;
@@ -162,8 +149,3 @@ div.sokubtn{
   font-size: calc(50% + 4vh);
   color: white;
 }
-
-/*.sokushita{
-  font-size: 5px;
-  color: white;
-}*/
